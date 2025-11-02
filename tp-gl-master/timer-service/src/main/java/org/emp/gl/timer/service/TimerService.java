@@ -16,7 +16,10 @@ public interface TimerService extends TimeChangeProvider {
     int getHeures();
 
     int getSecondes();
-
+//    void addObserver(Observer obs);
+//    void removeObserver(Observer obs);
     int getDixiemeDeSeconde();
+
+
 
 }
